@@ -1,6 +1,6 @@
 package entities;
 
-public final class Cachorro extends Mamifero{
+public final class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstimacao {
 
 	protected int tamanho;
 	protected String raça;
@@ -39,6 +39,34 @@ public final class Cachorro extends Mamifero{
 
 	@Override
 	public void emitirSom() {
+		
+	}
+
+
+	@Override
+	public void brincar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void levarPassear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void alimentar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void levarVeterinario() {
+		// TODO Auto-generated method stub
 		
 	}
 	

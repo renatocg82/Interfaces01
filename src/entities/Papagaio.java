@@ -6,8 +6,7 @@ public final class Papagaio extends Ave {
 	public Papagaio() {
 		
 	}
-	
-	
+		
 	@Override
 	
 	public void voar() {
